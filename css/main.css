@@ -175,6 +175,57 @@ PAGE: CONTACT
  background-image: url('../img/twitter.png'); 
 }
 
+
+/********************
+PAGE: BLOG INTRO
+*********************/
+
+/*blog text*/
+ h3, p {
+  color: #000;
+  font-size: 20px;
+  font-family: 'open sans', sans-serif;
+}
+
+/*blog headlines*/
+
+#blog_head {
+  text-align: center;
+  font-size: 20px;
+}
+
+#second_head {
+  text-align: center;
+  text-decoration: underline;
+}
+
+#conteiner li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*blog imag*/
+
+#conteiner img {
+  width: 75%;
+  margin: 0;
+  padding: 5% 10% 5% 10%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#conteiner li a p {
+  margin: 0;
+  padding: 0.4% 5%;
+  font-size: 1.25em;
+  color: #bdc6c7;
+  
+}
+
+
+
+
 /********************
 COLORS
 *********************/
@@ -185,15 +236,15 @@ body {
   color: #999;
 }
 
-/*Green Header*/
+/*blue Header*/
 header {
-  background: #6ab47b;
-  border-color: #599a68;
+  background: #5D6CC2;
+  border-color: #5725E8;
 }
 
 /*Links*/
 a { 
-color: #6ab47b;
+color: #5282E8;
 }
 
 /*Logo text*/
@@ -213,7 +264,7 @@ nav a, nav a:visited {
 
 /*Selected nav*/
 nav a.selected, nav a:hover {
-  color: #32673f;
+  color: #46197D;
 }
 
 
